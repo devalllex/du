@@ -1,0 +1,68 @@
+/* here the css */
+*{
+  box-sizing: border-box;
+}
+
+#main{	
+  background-color: #d1e0e0;
+  padding: 20px 10px;
+}
+
+/* for main heading */
+#title{
+  font-size: 61px;
+  text-decoration: underline;
+}
+
+/* here to align in cneter */
+.center{
+  text-align: center;
+}
+
+/* here for img */
+img.center{
+  height: 500px;
+  max-width: 100%;
+  margin: 0px 80px;
+  border: 3px solid black;
+}
+@media (orientation:portrait){
+#div-img{
+  height: 300px;
+  width: 400px;
+  margin: 0px;
+}
+}
+
+
+/* here for quote in last */
+#quote{
+  font-style: italic;
+}
+
+/* here for responsive css for the list */
+@media(orientation:portrait){
+#list{
+  margin-left: 50px;
+}
+	}
+
+/* here for list in last */
+/* #list{
+  margin-left: 240px;
+} */
+
+/* here for h5 headings and paragraph font-size */
+h5.center{
+  font-size: 16px;
+}
+p{
+  font-size: 13px;
+}
+
+
+
+
+
+
+
